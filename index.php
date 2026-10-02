@@ -25,7 +25,7 @@ if ($appareils->rowCount() >= 1) {
 </head>
 
 <body>
-    <h1>GESTION DES APPARREILS VERSION 2</h1>
+    <h1>GESTION DES APPARREILS</h1>
     <hr>
     <div class="button_lien">
         <div class="lien_a">
