@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(1, 1, 40);
+    color:rgb(196, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1{
+    text-align: center;
+}
+body hr{
+    padding: 5px;
+    background: rgb(218, 197, 160);
+}
+
+.button_lien{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    
+
+}
+.button_lien .lien_a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid white;
+    margin: 0;
+
+}
+
+.button_lien .lien_a:hover{
+    background: black;
+    border: none;
+    
+}
+
+
+
+.button_lien .lien_b{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.button_lien .lien_b:hover{
+    background: black;
+    border: none;
+    
+}
+
+
+
+.button_lien a{
+    font-size: 14px;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+ 
+}
+
+
+
+.affichage h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.app table{
+    margin-top: 10px;
+    /*border: 2px solid rgb(103, 103, 152);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.app table th{
+    border: 1px solid wheat;
+    background: #000000;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.app table td{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid rgb(103, 103, 152);
+    /*border: 1px solid rgb(103, 103, 152);
+    border-top: 1px solid rgb(103, 103, 152);
+    */
+    padding: 10px;
+    margin: 0;
+    
+}
+
+.app table tr td:last-child,.app table tr td:first-child {
+    text-align: center;
+}
+
+.app table tr td:last-child a{
+    color: green;
+}
+
+.app table tr td:last-child a:hover{
+    color: rgb(1, 73, 1);
+}
+
+.app table .suppr{
+    padding: 0;
+}
+
+.affichage .app .numerotation{
+    text-align: center;
+
+}
+
+
+.affichage .app td .div_suppr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.affichage .app td a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    padding: 0;
+    
+}
+
+
+.block_ajout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.block_ajout a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    color: wheat;
+    text-decoration: none;
+}
+.block_retour_pour_delete a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    color: wheat;
+    text-decoration: none;
+}
+
+.block_ajout a:hover{
+    background: wheat;
+    color: rgb(1, 1, 40);
+}
+.block_retour_pour_delete a:hover{
+    background: wheat;
+    color: rgb(1, 1, 40);
+}
+.block_ajout h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.block_ajout form button{
+    border: 0;
+    background: rgb(1, 1, 40);
+    color: wheat;
+    padding: 10px;
+    width: 100%;
+}
+
+.block_ajout form button:hover{
+    border: 1px solid white;
+    
+}
+
+.block_ajout form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    box-shadow: 0px 0px 5px white;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.block_ajout .enregistrer{
+    background: green;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 70%;
+    
+}
+
+
+.form_input{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/*
+.form_input input{
+        height: 100%;
+    width: 100%;
+}
+*/
+.form_input form button {
+    display: none;
+}
